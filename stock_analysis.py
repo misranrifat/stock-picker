@@ -40,7 +40,6 @@ if __name__ == '__main__':
             browser.set_page_load_timeout(think_time)
 
             browser.get(f"https://www.nasdaq.com/market-activity/stocks/{ticker}/historical")
-            print(browser.title)
 
             one_year_filter = WebDriverWait(browser, think_time).until(
                 EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'1Y')]"))
