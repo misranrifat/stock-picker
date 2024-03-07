@@ -51,7 +51,7 @@ if __name__ == '__main__':
             )
             download_data.click()
 
-            time.sleep(0.5)
+            time.sleep(1)
             browser.quit()
 
             file_path = glob.glob(f'{download_directory}/HistoricalData_*.csv')[0]
