@@ -18,10 +18,10 @@ def get_chromedriver_path():
     script_directory = os.path.dirname(os.path.realpath(__file__))
     if system_os == "Linux":
         logging.info(f'Operating system is {system_os}')
-        return os.path.join(script_directory, "chromedriver", "chromedriver-linux", "chromedriver")
+        return os.path.join(script_directory, "chromedriver", "chromedriver-linux64", "chromedriver")
     elif system_os == "Windows":
         logging.info(f'Operating system is {system_os}')
-        return os.path.join(script_directory, "chromedriver", "chromedriver-windows", "chromedriver.exe")
+        return os.path.join(script_directory, "chromedriver", "chromedriver-win64", "chromedriver.exe")
     elif system_os == "Darwin":
         logging.info(f'Operating system is {system_os}')
         return os.path.join(script_directory, "chromedriver", "chromedriver-mac-arm64", "chromedriver")
