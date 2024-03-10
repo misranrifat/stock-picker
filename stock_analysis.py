@@ -11,6 +11,7 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import WebDriverException
 
 
 def get_chromedriver_path():
@@ -52,8 +53,8 @@ if __name__ == '__main__':
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument('window-size=2560x1440')
-    options.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36")
+    options.add_argument("--verbose")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36")
     options.add_argument('--disable-gpu')
     prefs = {
         "download.default_directory": download_directory,
@@ -77,13 +78,33 @@ if __name__ == '__main__':
     with open('results.txt', 'w') as f:
         pass
 
+    screenshots_dir = 'screen_shots'
+    if not os.path.exists(screenshots_dir):
+        os.makedirs(screenshots_dir)
+
+    files = glob.glob(f'{screenshots_dir}/*')
+    for f in files:
+        os.remove(f)
+    logging.info("Deleted all files in the screen_shots directory.")
+
     for ticker in stock_tickers:
         browser = None
         try:
             browser = webdriver.Chrome(service=service, options=options)
             logging.info(f"Starting processing for {ticker}")
 
-            browser.get(f"https://www.nasdaq.com/market-activity/stocks/{ticker}/historical")
+            try:
+                browser.get(f"https://www.nasdaq.com/market-activity/stocks/{ticker}/historical")
+            except WebDriverException as e:
+                logging.error(f"Error occurred while trying {ticker}: {e}")
+            finally:
+                screenshot_path = f"{screenshots_dir}/{ticker}_screenshot.png"
+                try:
+                    browser.save_screenshot(screenshot_path)
+                    logging.info(f"Screenshot saved at {screenshot_path}")
+                except Exception as e:
+                    logging.error(f"Failed to take screenshot: {e}")
+
             logging.info(f"Opening {browser.current_url}")
 
             one_year_filter = WebDriverWait(browser, think_time).until(
