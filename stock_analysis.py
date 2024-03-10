@@ -18,6 +18,7 @@ if __name__ == '__main__':
         options.add_argument("--disable-blink-features")
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--log-level=3")
+        options.add_argument("--headless")
 
         prefs = {
             "download.default_directory": download_directory,
