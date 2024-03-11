@@ -5,6 +5,7 @@ import subprocess
 import time
 import logging
 import pandas as pd
+import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -39,6 +40,28 @@ def log_chromedriver_version(driver_path):
         logging.error(f"Failed to log ChromeDriver version: {e}")
 
 
+def assert_status_code(url):
+    headers = {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh-TW;q=0.7,zh;q=0.6",
+        "Cookie": "entryUrl=https://www.nasdaq.com/market-activity/stocks/aapl/historical; ...; OptanonConsent=isGpcEnabled=0&...",
+        "Dnt": "1",
+        "Sec-Ch-Ua": "\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Google Chrome\";v=\"122\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"macOS\"",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    }
+    response = requests.get(url, headers=headers)
+    logging.info(f"Status Code: {response.status_code}")
+    assert response.status_code == 200, f'Status Code: {response.status_code}, check security group rules'
+
+
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     current_directory = os.getcwd()
@@ -54,7 +77,8 @@ if __name__ == '__main__':
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument('window-size=2560x1440')
     options.add_argument("--verbose")
-    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36")
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36")
     options.add_argument('--disable-gpu')
     prefs = {
         "download.default_directory": download_directory,
@@ -92,9 +116,12 @@ if __name__ == '__main__':
         try:
             browser = webdriver.Chrome(service=service, options=options)
             logging.info(f"Starting processing for {ticker}")
-
             try:
-                browser.get(f"https://www.nasdaq.com/market-activity/stocks/{ticker}/historical")
+                url = f"https://www.nasdaq.com/market-activity/stocks/{ticker}/historical"
+                assert_status_code(url)
+                logging.info("Browser opened")
+                logging.info(f"Window size: {browser.get_window_size()['width']}x{browser.get_window_size()['height']}")
+                browser.get(url)
             except WebDriverException as e:
                 logging.error(f"Error occurred while trying {ticker}: {e}")
             finally:
