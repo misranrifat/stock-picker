@@ -13,6 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException
+from tqdm import tqdm
 
 
 def get_chromedriver_path():
@@ -107,18 +108,21 @@ if __name__ == '__main__':
         os.makedirs(screenshots_dir)
 
     files = glob.glob(f'{screenshots_dir}/*')
-    for f in files:
+    for f in tqdm(files):
         os.remove(f)
-    logging.info("Deleted all files in the screen_shots directory.")
+        logging.info(f"Deleted {f}")
 
-    for ticker in stock_tickers:
+    for ticker in tqdm(stock_tickers):
         browser = None
         try:
             browser = webdriver.Chrome(service=service, options=options)
             logging.info(f"Starting processing for {ticker}")
             try:
                 url = f"https://www.nasdaq.com/market-activity/stocks/{ticker}/historical"
-                assert_status_code(url)
+
+                if platform.system() == "Linux":
+                    assert_status_code(url)
+
                 logging.info("Browser opened")
                 logging.info(f"Window size: {browser.get_window_size()['width']}x{browser.get_window_size()['height']}")
                 browser.get(url)
