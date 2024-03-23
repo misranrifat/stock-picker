@@ -24,8 +24,9 @@ pipeline {
         stage('Push to origin') {
             steps {
                 script {
-                    sh '''git add -A
-                          git commit -m "Adding results.txt"
+                    sh '''git add -f screen_shots/*
+                          git add -f results.txt
+                          git commit -m "Updating results.txt and screenshots"
                           git push origin HEAD:main
                        '''
                 }
