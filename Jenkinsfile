@@ -6,6 +6,7 @@ pipeline {
         VENV_BIN = "${VENV_DIR}/bin"
     }
     stages {
+        
         stage('Setup') {
             steps {
                 script {
@@ -16,6 +17,16 @@ pipeline {
                     sh "which ${VENV_BIN}/pip3"
                     sh "${VENV_BIN}/pip3 install -r requirements.txt"
                     sh "${VENV_BIN}/python3.12 stock_analysis.py"
+                }
+            }
+        }
+        
+        stage('Push to origin') {
+            steps {
+                script {
+                    sh '''git add results.txt
+                          git commit -m "Adding results.txt"
+                          git push origin HEAD:main'''
                 }
             }
         }
