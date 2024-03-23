@@ -24,9 +24,10 @@ pipeline {
         stage('Push to origin') {
             steps {
                 script {
-                    sh '''git add results.txt
+                    sh '''git add -A
                           git commit -m "Adding results.txt"
-                          git push origin HEAD:main'''
+                          git push origin HEAD:main
+                       '''
                 }
             }
         }
