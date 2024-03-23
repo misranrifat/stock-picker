@@ -21,11 +21,11 @@ pipeline {
             }
         }
         
-        stage('Push to origin') {
+        stage('Update results.txt') {
             steps {
                 script {
                     sh '''git add results.txt
-                          git commit -m "Adding results.txt"
+                          git commit -m "Updating results.txt"
                           git push origin HEAD:main'''
                 }
             }
