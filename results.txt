@@ -19,7 +19,6 @@ MA: The stock is currently undervalued. Close: 354.37, EMA: 362.49
 HD: The stock is currently undervalued. Close: 283.91, EMA: 288.86
 ASML: The stock is currently overvalued. Close: 664.16, EMA: 656.18
 PG: The stock is currently undervalued. Close: 143.79, EMA: 149.09
-JNJ: The stock is currently undervalued. Close: 151.13, EMA: 157.68
 ORCL: The stock is currently undervalued. Close: 87.78, EMA: 92.52
 TM: The stock is currently undervalued. Close: 135.87, EMA: 138.26
 COST: The stock is currently undervalued. Close: 487.76, EMA: 494.16
@@ -78,7 +77,6 @@ COP: The stock is currently undervalued. Close: 96.42, EMA: 101.48
 BHP: The stock is currently undervalued. Close: 57.61, EMA: 60.27
 NKE: The stock is currently undervalued. Close: 120.97, EMA: 121.57
 PM: The stock is currently undervalued. Close: 90.27, EMA: 95.74
-RY: The stock is currently undervalued. Close: 92.66, EMA: 95.67
 ISRG: The stock is currently undervalued. Close: 244.47, EMA: 262.46
 ARM: The stock is currently overvalued. Close: 63.59, EMA: 55.19
 HDB: The stock is currently undervalued. Close: 63.42, EMA: 66.59
@@ -107,6 +105,7 @@ BA: The stock is currently undervalued. Close: 197.90, EMA: 206.25
 TJX: The stock is currently undervalued. Close: 74.63, EMA: 77.01
 DE: The stock is currently overvalued. Close: 391.85, EMA: 390.95
 MDT: The stock is currently undervalued. Close: 77.57, EMA: 81.08
+SONY: The stock is currently undervalued. Close: 88.27, EMA: 89.39
 ABNB: The stock is currently overvalued. Close: 120.30, EMA: 117.59
 UBS: The stock is currently undervalued. Close: 19.17, EMA: 20.19
 LMT: The stock is currently undervalued. Close: 467.90, EMA: 477.61
@@ -122,7 +121,6 @@ SBUX: The stock is currently undervalued. Close: 98.42, EMA: 102.98
 RIO: The stock is currently undervalued. Close: 64.60, EMA: 66.38
 ADP: The stock is currently undervalued. Close: 213.62, EMA: 215.89
 SHOP: The stock is currently undervalued. Close: 45.79, EMA: 47.04
-MMC: The stock is currently undervalued. Close: 158.65, EMA: 167.42
 BSX: The stock is currently undervalued. Close: 47.94, EMA: 49.93
 CVS: The stock is currently undervalued. Close: 72.37, EMA: 74.13
 MDLZ: The stock is currently undervalued. Close: 67.20, EMA: 70.41
@@ -659,7 +657,6 @@ TEVA: The stock is currently undervalued. Close: 8.53, EMA: 8.77
 ENPH: The stock is currently overvalued. Close: 204.66, EMA: 198.95
 ESS: The stock is currently undervalued. Close: 196.17, EMA: 206.47
 TRU: The stock is currently undervalued. Close: 57.91, EMA: 61.31
-SREA: The stock is currently undervalued. Close: 24.10, EMA: 24.45
 MANH: The stock is currently undervalued. Close: 146.40, EMA: 153.78
 BSY: The stock is currently undervalued. Close: 41.27, EMA: 42.25
 SNA: The stock is currently undervalued. Close: 233.75, EMA: 241.16
@@ -760,6 +757,7 @@ WPC: The stock is currently overvalued. Close: 75.02, EMA: 75.01
 RDY: The stock is currently undervalued. Close: 54.48, EMA: 57.23
 UDR: The stock is currently undervalued. Close: 37.84, EMA: 39.87
 DINO: The stock is currently overvalued. Close: 48.22, EMA: 47.06
+UWMC: The stock is currently undervalued. Close: 4.75, EMA: 5.06
 NVT: The stock is currently undervalued. Close: 41.06, EMA: 42.15
 UHS: The stock is currently undervalued. Close: 121.80, EMA: 128.95
 NI: The stock is currently undervalued. Close: 25.98, EMA: 27.69
@@ -834,10 +832,12 @@ TREX: The stock is currently undervalued. Close: 46.52, EMA: 49.03
 INFA: The stock is currently overvalued. Close: 16.29, EMA: 16.03
 TPR: The stock is currently undervalued. Close: 40.66, EMA: 41.33
 BCH: The stock is currently overvalued. Close: 128.50, EMA: 124.99
+OTEX: The stock is currently undervalued. Close: 37.24, EMA: 38.10
 SCI: The stock is currently undervalued. Close: 65.15, EMA: 68.24
 EWBC: The stock is currently undervalued. Close: 53.63, EMA: 53.84
 PAG: The stock is currently undervalued. Close: 131.81, EMA: 137.78
 DOX: The stock is currently undervalued. Close: 93.08, EMA: 94.55
+CLF: The stock is currently overvalued. Close: 17.65, EMA: 17.38
 LEGN: The stock is currently undervalued. Close: 43.82, EMA: 51.12
 BBWI: The stock is currently undervalued. Close: 34.35, EMA: 36.07
 RIVN: The stock is currently undervalued. Close: 13.71, EMA: 13.95
