@@ -15,6 +15,11 @@ V: The stock is currently undervalued. Close: 221.81, EMA: 226.85
 WMT: The stock is currently undervalued. Close: 48.06, EMA: 49.32
 UNH: The stock is currently undervalued. Close: 481.90, EMA: 490.58
 XOM: The stock is currently undervalued. Close: 105.80, EMA: 112.00
+MA: The stock is currently undervalued. Close: 354.62, EMA: 364.58
+HD: The stock is currently undervalued. Close: 281.27, EMA: 290.05
+ASML: The stock is currently undervalued. Close: 644.05, EMA: 656.16
+PG: The stock is currently undervalued. Close: 145.95, EMA: 149.95
+JNJ: The stock is currently undervalued. Close: 153.30, EMA: 158.97
 ORCL: The stock is currently undervalued. Close: 90.14, EMA: 93.54
 TM: The stock is currently undervalued. Close: 136.96, EMA: 138.70
 COST: The stock is currently undervalued. Close: 493.22, EMA: 494.79
