@@ -177,10 +177,6 @@ if __name__ == '__main__':
             os.remove(file_path)
             logging.info(f"Processed and removed file for {ticker}")
 
-            pause_time = 60
-            logging.info(f"Pausing for {pause_time} seconds to avoid temporary IP ban")
-            time.sleep(60)
-
         except Exception as e:
             logging.error(f"Error post-processing {ticker}: {e}")
 
