@@ -15,7 +15,6 @@ V: The stock is currently undervalued. Close: 229.00, EMA: 229.69
 WMT: The stock is currently undervalued. Close: 49.56, EMA: 49.99
 UNH: The stock is currently undervalued. Close: 494.19, EMA: 501.88
 XOM: The stock is currently overvalued. Close: 116.13, EMA: 114.60
-MA: The stock is currently undervalued. Close: 366.47, EMA: 368.99
 HD: The stock is currently overvalued. Close: 297.73, EMA: 293.62
 ASML: The stock is currently overvalued. Close: 673.99, EMA: 655.05
 PG: The stock is currently undervalued. Close: 149.51, EMA: 151.92
@@ -48,7 +47,7 @@ CSCO: The stock is currently overvalued. Close: 52.31, EMA: 49.90
 NVS: The stock is currently undervalued. Close: 89.51, EMA: 94.38
 ABT: The stock is currently undervalued. Close: 101.59, EMA: 105.61
 TMUS: The stock is currently undervalued. Close: 146.76, EMA: 147.36
-GE: The stock is currently overvalued. Close: 96.92, EMA: 96.77
+GE: The stock is currently overvalued. Close: 77.67, EMA: 77.55
 QCOM: The stock is currently overvalued. Close: 124.74, EMA: 119.46
 DHR: The stock is currently overvalued. Close: 220.78, EMA: 218.21
 BABA: The stock is currently overvalued. Close: 98.39, EMA: 94.39
