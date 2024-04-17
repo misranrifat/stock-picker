@@ -13,7 +13,6 @@ JPM: The stock is currently overvalued. Close: 139.83, EMA: 138.88
 TSLA: The stock is currently overvalued. Close: 187.04, EMA: 173.29
 V: The stock is currently overvalued. Close: 233.48, EMA: 231.35
 WMT: The stock is currently undervalued. Close: 49.84, EMA: 50.32
-UNH: The stock is currently overvalued. Close: 505.35, EMA: 491.03
 XOM: The stock is currently overvalued. Close: 114.70, EMA: 113.15
 MA: The stock is currently undervalued. Close: 372.76, EMA: 375.53
 HD: The stock is currently overvalued. Close: 295.40, EMA: 295.29
@@ -77,7 +76,6 @@ AMGN: The stock is currently overvalued. Close: 248.07, EMA: 239.24
 COP: The stock is currently overvalued. Close: 105.61, EMA: 102.47
 BHP: The stock is currently overvalued. Close: 62.14, EMA: 59.86
 NKE: The stock is currently overvalued. Close: 126.19, EMA: 123.74
-PM: The stock is currently overvalued. Close: 99.94, EMA: 97.71
 RY: The stock is currently overvalued. Close: 99.73, EMA: 97.96
 ISRG: The stock is currently undervalued. Close: 268.89, EMA: 295.83
 ARM: The stock is currently overvalued. Close: 63.59, EMA: 55.19
