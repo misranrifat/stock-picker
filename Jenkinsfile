@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PYTHON_PATH = '/Library/Frameworks/Python.framework/Versions/3.12/bin/python3'
+        PYTHON_PATH = '/usr/bin/python3'
         VENV_DIR = 'virtual_env'
         VENV_BIN = "${VENV_DIR}/bin"
     }
@@ -26,7 +26,7 @@ pipeline {
                 script {
                     sh '''git add -f results.txt
                           git commit -m "Updating results.txt"
-                          git push origin HEAD:main
+                          git push origin HEAD:ubuntu
                        '''
                 }
             }
