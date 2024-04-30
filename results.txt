@@ -1,5 +1,6 @@
 MSFT: The stock is currently undervalued. Close: 305.56, EMA: 313.02
 AAPL: The stock is currently undervalued. Close: 169.59, EMA: 172.68
+NVDA: The stock is currently undervalued. Close: 289.10, EMA: 307.31
 GOOG: The stock is currently undervalued. Close: 107.71, EMA: 113.74
 GOOGL: The stock is currently undervalued. Close: 107.20, EMA: 113.15
 AMZN: The stock is currently undervalued. Close: 102.05, EMA: 110.45
@@ -81,6 +82,7 @@ RY: The stock is currently overvalued. Close: 99.19, EMA: 95.77
 ISRG: The stock is currently undervalued. Close: 303.02, EMA: 306.32
 ARM: The stock is currently overvalued. Close: 63.59, EMA: 55.19
 HDB: The stock is currently overvalued. Close: 69.91, EMA: 67.54
+SYK: The stock is currently overvalued. Close: 299.89, EMA: 286.65
 UPS: The stock is currently overvalued. Close: 182.20, EMA: 173.58
 GS: The stock is currently overvalued. Close: 340.57, EMA: 327.39
 SPGI: The stock is currently overvalued. Close: 362.65, EMA: 360.90
