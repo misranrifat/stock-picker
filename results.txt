@@ -45,7 +45,6 @@ AZN: The stock is currently undervalued. Close: 73.50, EMA: 74.16
 WFC: The stock is currently overvalued. Close: 40.39, EMA: 39.27
 MCD: The stock is currently overvalued. Close: 297.58, EMA: 294.29
 CSCO: The stock is currently undervalued. Close: 47.34, EMA: 47.38
-NVS: The stock is currently undervalued. Close: 99.20, EMA: 99.24
 ABT: The stock is currently overvalued. Close: 111.11, EMA: 109.23
 TMUS: The stock is currently overvalued. Close: 143.21, EMA: 140.66
 GE: The stock is currently undervalued. Close: 81.08, EMA: 81.51
@@ -59,7 +58,6 @@ CAT: The stock is currently overvalued. Close: 217.27, EMA: 215.69
 TTE: The stock is currently overvalued. Close: 63.06, EMA: 60.49
 IBM: The stock is currently overvalued. Close: 126.09, EMA: 125.36
 AMAT: The stock is currently undervalued. Close: 112.95, EMA: 119.85
-TBB: The stock is currently overvalued. Close: 23.56, EMA: 23.46
 CMCSA: The stock is currently overvalued. Close: 41.64, EMA: 40.52
 VZ: The stock is currently overvalued. Close: 38.71, EMA: 37.09
 PDD: The stock is currently overvalued. Close: 68.59, EMA: 65.08
