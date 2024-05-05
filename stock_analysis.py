@@ -1,18 +1,15 @@
 import glob
-import os
-import platform
-import subprocess
-import time
 import logging
+import os
+import time
+
 import pandas as pd
-import requests
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.support.ui import WebDriverWait
 from tqdm import tqdm
 
 if __name__ == '__main__':
