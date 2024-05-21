@@ -59,7 +59,6 @@ CAT: The stock is currently undervalued. Close: 214.26, EMA: 223.11
 TTE: The stock is currently overvalued. Close: 60.46, EMA: 58.98
 IBM: The stock is currently undervalued. Close: 127.50, EMA: 130.88
 AMAT: The stock is currently undervalued. Close: 126.55, EMA: 133.39
-TBB: The stock is currently undervalued. Close: 23.50, EMA: 23.66
 CMCSA: The stock is currently overvalued. Close: 41.24, EMA: 40.22
 VZ: The stock is currently overvalued. Close: 35.96, EMA: 35.48
 PDD: The stock is currently undervalued. Close: 63.04, EMA: 68.59
@@ -73,7 +72,6 @@ HSBC: The stock is currently overvalued. Close: 38.53, EMA: 38.14
 MS: The stock is currently undervalued. Close: 82.27, EMA: 84.14
 UNP: The stock is currently overvalued. Close: 198.29, EMA: 198.03
 LOW: The stock is currently undervalued. Close: 203.15, EMA: 208.89
-AMGN: The stock is currently overvalued. Close: 223.99, EMA: 221.69
 COP: The stock is currently overvalued. Close: 103.73, EMA: 102.96
 BHP: The stock is currently overvalued. Close: 58.62, EMA: 58.09
 NKE: The stock is currently overvalued. Close: 110.18, EMA: 107.91
