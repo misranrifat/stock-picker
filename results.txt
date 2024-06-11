@@ -1,6 +1,6 @@
 MSFT: The stock is currently undervalued. Close: 331.85, EMA: 337.35
 AAPL: The stock is currently undervalued. Close: 183.79, EMA: 186.79
-NVDA: The stock is currently undervalued. Close: 394.82, EMA: 424.54
+NVDA: The stock is currently undervalued. Close: 39.48, EMA: 42.45
 GOOG: The stock is currently overvalued. Close: 124.35, EMA: 123.20
 GOOGL: The stock is currently overvalued. Close: 123.64, EMA: 122.52
 AMZN: The stock is currently undervalued. Close: 126.57, EMA: 128.17
