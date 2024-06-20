@@ -34,7 +34,6 @@ KO: The stock is currently overvalued. Close: 61.26, EMA: 60.96
 PEP: The stock is currently undervalued. Close: 185.31, EMA: 185.62
 FMX: The stock is currently overvalued. Close: 110.18, EMA: 109.92
 SAP: The stock is currently overvalued. Close: 136.01, EMA: 135.39
-ADBE: The stock is currently undervalued. Close: 485.86, EMA: 492.70
 LIN: The stock is currently undervalued. Close: 368.68, EMA: 374.06
 ACN: The stock is currently overvalued. Close: 317.40, EMA: 309.18
 TMO: The stock is currently overvalued. Close: 527.40, EMA: 525.34
