@@ -15,6 +15,7 @@ V: The stock is currently undervalued. Close: 226.30, EMA: 235.93
 WMT: The stock is currently undervalued. Close: 51.68, EMA: 52.06
 UNH: The stock is currently undervalued. Close: 479.06, EMA: 479.95
 XOM: The stock is currently undervalued. Close: 104.29, EMA: 105.26
+MA: The stock is currently undervalued. Close: 377.42, EMA: 391.32
 HD: The stock is currently undervalued. Close: 307.89, EMA: 313.28
 ASML: The stock is currently undervalued. Close: 700.24, EMA: 713.74
 PG: The stock is currently undervalued. Close: 148.61, EMA: 150.79
