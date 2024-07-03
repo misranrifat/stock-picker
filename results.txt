@@ -45,7 +45,6 @@ AZN: The stock is currently undervalued. Close: 65.25, EMA: 67.12
 WFC: The stock is currently undervalued. Close: 43.40, EMA: 43.96
 MCD: The stock is currently overvalued. Close: 294.84, EMA: 293.61
 CSCO: The stock is currently undervalued. Close: 51.82, EMA: 51.93
-NVS: The stock is currently undervalued. Close: 95.55, EMA: 96.63
 ABT: The stock is currently undervalued. Close: 107.22, EMA: 107.99
 TMUS: The stock is currently overvalued. Close: 139.33, EMA: 139.19
 GE: The stock is currently undervalued. Close: 86.77, EMA: 88.67
