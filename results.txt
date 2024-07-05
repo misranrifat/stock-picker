@@ -4,19 +4,11 @@ NVDA: The stock is currently undervalued. Close: 42.32, EMA: 44.22
 GOOG: The stock is currently undervalued. Close: 122.63, EMA: 123.53
 GOOGL: The stock is currently undervalued. Close: 121.75, EMA: 122.98
 AMZN: The stock is currently undervalued. Close: 130.38, EMA: 131.32
-META: The stock is currently undervalued. Close: 294.37, EMA: 302.01
 LLY: The stock is currently overvalued. Close: 465.70, EMA: 461.21
-TSM: The stock is currently overvalued. Close: 100.99, EMA: 100.23
-AVGO: The stock is currently undervalued. Close: 861.86, EMA: 879.34
 NVO: The stock is currently undervalued. Close: 80.00, EMA: 80.56
-JPM: The stock is currently undervalued. Close: 144.64, EMA: 149.86
 TSLA: The stock is currently overvalued. Close: 282.48, EMA: 271.08
-V: The stock is currently undervalued. Close: 239.45, EMA: 239.89
 WMT: The stock is currently overvalued. Close: 52.70, EMA: 52.22
 UNH: The stock is currently undervalued. Close: 471.22, EMA: 481.06
-XOM: The stock is currently overvalued. Close: 106.91, EMA: 104.87
-MA: The stock is currently undervalued. Close: 394.73, EMA: 396.78
-HD: The stock is currently undervalued. Close: 310.80, EMA: 316.45
 ASML: The stock is currently overvalued. Close: 715.67, EMA: 708.18
 PG: The stock is currently overvalued. Close: 152.24, EMA: 151.29
 JNJ: The stock is currently undervalued. Close: 162.81, EMA: 163.37
@@ -40,7 +32,6 @@ ACN: The stock is currently undervalued. Close: 309.90, EMA: 312.98
 TMO: The stock is currently undervalued. Close: 520.60, EMA: 531.93
 CCZ: The stock is currently overvalued. Close: 58.50, EMA: 57.78
 SHEL: The stock is currently undervalued. Close: 59.86, EMA: 60.93
-DIS: The stock is currently overvalued. Close: 89.79, EMA: 87.94
 AZN: The stock is currently undervalued. Close: 67.06, EMA: 67.32
 WFC: The stock is currently undervalued. Close: 43.48, EMA: 44.02
 MCD: The stock is currently overvalued. Close: 296.90, EMA: 293.48
@@ -86,8 +77,6 @@ SYK: The stock is currently overvalued. Close: 297.37, EMA: 293.30
 UPS: The stock is currently undervalued. Close: 179.97, EMA: 182.39
 GS: The stock is currently undervalued. Close: 320.05, EMA: 331.11
 SPGI: The stock is currently undervalued. Close: 399.60, EMA: 404.07
-HON: The stock is currently overvalued. Close: 206.43, EMA: 203.58
-SCHW: The stock is currently undervalued. Close: 56.69, EMA: 60.60
 MUFG: The stock is currently undervalued. Close: 7.50, EMA: 7.61
 LRCX: The stock is currently undervalued. Close: 628.58, EMA: 642.55
 NEE: The stock is currently overvalued. Close: 74.95, EMA: 72.60
