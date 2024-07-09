@@ -42,6 +42,7 @@ CCZ: The stock is currently overvalued. Close: 58.00, EMA: 57.64
 SHEL: The stock is currently undervalued. Close: 59.92, EMA: 61.48
 DIS: The stock is currently overvalued. Close: 88.10, EMA: 87.54
 AZN: The stock is currently undervalued. Close: 65.19, EMA: 67.83
+WFC: The stock is currently undervalued. Close: 42.32, EMA: 44.35
 MCD: The stock is currently overvalued. Close: 294.49, EMA: 293.02
 CSCO: The stock is currently undervalued. Close: 51.40, EMA: 52.19
 NVS: The stock is currently undervalued. Close: 93.40, EMA: 97.64
