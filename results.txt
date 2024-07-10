@@ -78,7 +78,7 @@ COP: The stock is currently undervalued. Close: 104.35, EMA: 111.27
 BHP: The stock is currently undervalued. Close: 57.47, EMA: 60.34
 NKE: The stock is currently undervalued. Close: 105.78, EMA: 107.70
 PM: The stock is currently undervalued. Close: 97.75, EMA: 98.18
-RY: The stock is currently undervalued. Close: 94.33, EMA: 96.50
+RY: The stock is currently overvalued. Close: 11.62, EMA: 11.60
 ISRG: The stock is currently overvalued. Close: 340.27, EMA: 334.95
 ARM: The stock is currently overvalued. Close: 63.59, EMA: 55.19
 HDB: The stock is currently undervalued. Close: 66.18, EMA: 67.96
