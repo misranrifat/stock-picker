@@ -7,7 +7,7 @@ AMZN: The stock is currently overvalued. Close: 133.56, EMA: 132.75
 META: The stock is currently overvalued. Close: 310.62, EMA: 306.33
 LLY: The stock is currently undervalued. Close: 447.14, EMA: 472.80
 TSM: The stock is currently overvalued. Close: 104.79, EMA: 98.55
-AVGO: The stock is currently overvalued. Close: 910.35, EMA: 890.97
+AVGO: The stock is currently overvalued. Close: 91.03, EMA: 89.10
 NVO: The stock is currently undervalued. Close: 80.47, EMA: 82.97
 JPM: The stock is currently undervalued. Close: 153.38, EMA: 154.64
 TSLA: The stock is currently overvalued. Close: 290.38, EMA: 265.46
@@ -78,6 +78,7 @@ COP: The stock is currently undervalued. Close: 106.44, EMA: 113.67
 BHP: The stock is currently overvalued. Close: 61.11, EMA: 60.56
 NKE: The stock is currently overvalued. Close: 108.71, EMA: 108.00
 PM: The stock is currently overvalued. Close: 98.95, EMA: 97.67
+RY: The stock is currently overvalued. Close: 97.85, EMA: 97.04
 ISRG: The stock is currently overvalued. Close: 353.84, EMA: 328.50
 ARM: The stock is currently overvalued. Close: 63.59, EMA: 55.19
 HDB: The stock is currently overvalued. Close: 70.55, EMA: 68.57
