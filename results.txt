@@ -1,7 +1,6 @@
 MSFT: The stock is currently overvalued. Close: 345.11, EMA: 332.70
 AAPL: The stock is currently overvalued. Close: 192.75, EMA: 187.84
 NVDA: The stock is currently undervalued. Close: 44.61, EMA: 45.18
-GOOG: The stock is currently undervalued. Close: 121.88, EMA: 129.52
 GOOGL: The stock is currently undervalued. Close: 121.53, EMA: 129.03
 AMZN: The stock is currently undervalued. Close: 128.80, EMA: 132.88
 META: The stock is currently undervalued. Close: 291.61, EMA: 305.30
@@ -24,11 +23,12 @@ ORCL: The stock is currently overvalued. Close: 118.07, EMA: 116.25
 TM: The stock is currently undervalued. Close: 164.53, EMA: 168.02
 COST: The stock is currently overvalued. Close: 563.93, EMA: 558.29
 ABBV: The stock is currently undervalued. Close: 143.18, EMA: 147.74
-CRM: The stock is currently overvalued. Close: 225.66, EMA: 218.90
+MRK: The stock is currently overvalued. Close: 108.79, EMA: 107.03
 BAC: The stock is currently overvalued. Close: 32.65, EMA: 31.22
 AMD: The stock is currently undervalued. Close: 110.61, EMA: 111.12
 CVX: The stock is currently overvalued. Close: 161.82, EMA: 161.12
 NFLX: The stock is currently overvalued. Close: 428.37, EMA: 426.28
+KO: The stock is currently overvalued. Close: 62.46, EMA: 61.50
 PEP: The stock is currently overvalued. Close: 190.92, EMA: 186.18
 FMX: The stock is currently undervalued. Close: 108.02, EMA: 111.38
 SAP: The stock is currently undervalued. Close: 132.39, EMA: 134.90
