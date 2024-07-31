@@ -8,6 +8,7 @@ META: The stock is currently overvalued. Close: 318.60, EMA: 306.99
 LLY: The stock is currently undervalued. Close: 454.55, EMA: 502.51
 TSM: The stock is currently overvalued. Close: 99.15, EMA: 94.60
 AVGO: The stock is currently overvalued. Close: 89.86, EMA: 87.33
+NVO: The stock is currently undervalued. Close: 80.55, EMA: 87.07
 JPM: The stock is currently overvalued. Close: 157.96, EMA: 153.29
 TSLA: The stock is currently overvalued. Close: 267.43, EMA: 249.06
 V: The stock is currently undervalued. Close: 237.73, EMA: 239.98
