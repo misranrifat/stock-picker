@@ -43,6 +43,7 @@ SHEL: The stock is currently undervalued. Close: 61.44, EMA: 61.94
 DIS: The stock is currently overvalued. Close: 86.83, EMA: 86.34
 AZN: The stock is currently overvalued. Close: 69.93, EMA: 69.40
 WFC: The stock is currently overvalued. Close: 45.06, EMA: 42.92
+MCD: The stock is currently overvalued. Close: 291.40, EMA: 284.65
 CSCO: The stock is currently undervalued. Close: 53.01, EMA: 54.37
 NVS: The stock is currently overvalued. Close: 99.45, EMA: 98.98
 ABT: The stock is currently overvalued. Close: 108.45, EMA: 104.48
@@ -55,7 +56,6 @@ INTU: The stock is currently undervalued. Close: 505.26, EMA: 506.88
 TBC: The stock is currently undervalued. Close: 22.87, EMA: 23.01
 INTC: The stock is currently overvalued. Close: 35.23, EMA: 34.69
 CAT: The stock is currently overvalued. Close: 281.65, EMA: 279.20
-TTE: The stock is currently undervalued. Close: 61.01, EMA: 62.39
 IBM: The stock is currently overvalued. Close: 146.18, EMA: 143.91
 AMAT: The stock is currently overvalued. Close: 150.38, EMA: 144.73
 TBB: The stock is currently undervalued. Close: 22.05, EMA: 22.13
@@ -78,6 +78,7 @@ BHP: The stock is currently overvalued. Close: 59.94, EMA: 57.71
 NKE: The stock is currently overvalued. Close: 110.48, EMA: 104.95
 PM: The stock is currently overvalued. Close: 97.21, EMA: 95.54
 RY: The stock is currently overvalued. Close: 96.35, EMA: 92.20
+ISRG: The stock is currently overvalued. Close: 309.24, EMA: 300.66
 ARM: The stock is currently overvalued. Close: 63.59, EMA: 55.19
 HDB: The stock is currently overvalued. Close: 66.96, EMA: 64.60
 SYK: The stock is currently overvalued. Close: 286.27, EMA: 282.29
