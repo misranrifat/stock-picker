@@ -31,7 +31,6 @@ AMD: The stock is currently overvalued. Close: 116.81, EMA: 108.79
 CVX: The stock is currently undervalued. Close: 159.89, EMA: 161.20
 NFLX: The stock is currently overvalued. Close: 440.76, EMA: 423.48
 KO: The stock is currently overvalued. Close: 61.19, EMA: 60.31
-PEP: The stock is currently overvalued. Close: 186.89, EMA: 180.91
 FMX: The stock is currently undervalued. Close: 113.16, EMA: 113.16
 SAP: The stock is currently undervalued. Close: 135.80, EMA: 136.76
 ADBE: The stock is currently overvalued. Close: 529.73, EMA: 524.25
@@ -56,6 +55,7 @@ INTU: The stock is currently undervalued. Close: 505.26, EMA: 506.88
 TBC: The stock is currently undervalued. Close: 22.87, EMA: 23.01
 INTC: The stock is currently overvalued. Close: 35.23, EMA: 34.69
 CAT: The stock is currently overvalued. Close: 281.65, EMA: 279.20
+TTE: The stock is currently undervalued. Close: 61.01, EMA: 62.39
 IBM: The stock is currently overvalued. Close: 146.18, EMA: 143.91
 AMAT: The stock is currently overvalued. Close: 150.38, EMA: 144.73
 TBB: The stock is currently undervalued. Close: 22.05, EMA: 22.13
