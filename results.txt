@@ -54,7 +54,9 @@ DHR: The stock is currently overvalued. Close: 227.04, EMA: 224.62
 BABA: The stock is currently overvalued. Close: 93.46, EMA: 90.25
 INTU: The stock is currently undervalued. Close: 505.80, EMA: 510.89
 TBC: The stock is currently overvalued. Close: 23.17, EMA: 23.08
+INTC: The stock is currently overvalued. Close: 35.68, EMA: 34.59
 CAT: The stock is currently overvalued. Close: 284.54, EMA: 276.43
+TTE: The stock is currently undervalued. Close: 61.62, EMA: 62.68
 IBM: The stock is currently undervalued. Close: 141.91, EMA: 143.61
 AMAT: The stock is currently undervalued. Close: 141.89, EMA: 143.96
 TBB: The stock is currently overvalued. Close: 22.22, EMA: 22.18
@@ -90,6 +92,7 @@ MUFG: The stock is currently undervalued. Close: 7.62, EMA: 7.83
 LRCX: The stock is currently overvalued. Close: 667.20, EMA: 661.80
 NEE: The stock is currently overvalued. Close: 68.56, EMA: 66.94
 RTX: The stock is currently overvalued. Close: 86.44, EMA: 83.85
+ETN: The stock is currently undervalued. Close: 219.04, EMA: 220.58
 UL: The stock is currently overvalued. Close: 51.83, EMA: 50.80
 BKNG: The stock is currently overvalued. Close: 3234.33, EMA: 3120.30
 BLK: The stock is currently overvalued. Close: 692.93, EMA: 679.18
