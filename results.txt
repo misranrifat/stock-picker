@@ -61,7 +61,6 @@ IBM: The stock is currently undervalued. Close: 142.28, EMA: 145.08
 AMAT: The stock is currently overvalued. Close: 148.77, EMA: 146.44
 TBB: The stock is currently undervalued. Close: 22.05, EMA: 22.16
 CMCSA: The stock is currently overvalued. Close: 45.86, EMA: 45.51
-VZ: The stock is currently undervalued. Close: 33.00, EMA: 33.62
 PDD: The stock is currently undervalued. Close: 78.06, EMA: 89.59
 UBER: The stock is currently undervalued. Close: 44.63, EMA: 45.63
 LYG: The stock is currently overvalued. Close: 2.11, EMA: 2.09
