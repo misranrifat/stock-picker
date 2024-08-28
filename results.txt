@@ -32,6 +32,7 @@ CVX: The stock is currently undervalued. Close: 160.21, EMA: 164.00
 NFLX: The stock is currently undervalued. Close: 418.06, EMA: 420.74
 KO: The stock is currently overvalued. Close: 60.56, EMA: 58.64
 PEP: The stock is currently overvalued. Close: 180.25, EMA: 176.50
+FMX: The stock is currently overvalued. Close: 117.23, EMA: 111.51
 SAP: The stock is currently overvalued. Close: 138.34, EMA: 137.00
 ADBE: The stock is currently undervalued. Close: 529.92, EMA: 545.01
 LIN: The stock is currently undervalued. Close: 382.07, EMA: 383.99
@@ -48,9 +49,11 @@ NVS: The stock is currently overvalued. Close: 99.01, EMA: 97.54
 ABT: The stock is currently overvalued. Close: 102.79, EMA: 101.29
 TMUS: The stock is currently undervalued. Close: 135.18, EMA: 138.27
 GE: The stock is currently overvalued. Close: 91.33, EMA: 90.96
+QCOM: The stock is currently undervalued. Close: 111.68, EMA: 112.19
 DHR: The stock is currently overvalued. Close: 230.85, EMA: 226.02
 BABA: The stock is currently overvalued. Close: 92.24, EMA: 90.47
 INTU: The stock is currently undervalued. Close: 518.87, EMA: 536.38
+TBC: The stock is currently undervalued. Close: 23.11, EMA: 23.27
 INTC: The stock is currently undervalued. Close: 33.62, EMA: 36.10
 CAT: The stock is currently undervalued. Close: 274.79, EMA: 278.35
 TTE: The stock is currently undervalued. Close: 62.59, EMA: 64.32
