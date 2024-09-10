@@ -20,6 +20,7 @@ HD: The stock is currently overvalued. Close: 328.37, EMA: 312.31
 ASML: The stock is currently overvalued. Close: 627.71, EMA: 601.64
 PG: The stock is currently overvalued. Close: 154.75, EMA: 151.05
 JNJ: The stock is currently overvalued. Close: 162.66, EMA: 160.28
+ORCL: The stock is currently overvalued. Close: 126.71, EMA: 111.46
 TM: The stock is currently undervalued. Close: 178.67, EMA: 183.25
 COST: The stock is currently undervalued. Close: 558.78, EMA: 561.69
 ABBV: The stock is currently undervalued. Close: 149.04, EMA: 150.88
