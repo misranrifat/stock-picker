@@ -1,2 +1,2 @@
-MSFT: The stock is currently undervalued. Close: 340.67, EMA: 352.31
-AAPL: The stock is currently undervalued. Close: 171.10, EMA: 178.32
+MSFT: The stock is currently undervalued. Close: 337.31, EMA: 359.02
+AAPL: The stock is currently undervalued. Close: 170.29, EMA: 181.64
