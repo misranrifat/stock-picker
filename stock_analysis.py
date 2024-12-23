@@ -117,7 +117,7 @@ if __name__ == '__main__':
             result_string = f"{ticker}: The stock is currently {valuation}. Close: {latest_close:.2f}, EMA: {latest_ema:.2f}\n"
 
             with open('results.txt', 'a') as results_file:
-                results_file.write(result_string )
+                results_file.write(result_string + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
             os.remove(file_path)
             logging.info(f"Processed and removed file for {ticker}")
