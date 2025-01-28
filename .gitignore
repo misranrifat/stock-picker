@@ -1,0 +1,7 @@
+.venv/
+venv/
+download_directory/
+screen_shots/
+*.pyc
+__pycache__/
+.env
