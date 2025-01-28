@@ -247,10 +247,18 @@ def main():
     )
 
     try:
+        start_time = time.time()
         config = Config()
         analyzer = StockAnalyzer(config)
         analyzer.run_analysis()
+
+        # Calculate execution time
+        execution_time = time.time() - start_time
+        minutes = int(execution_time // 60)
+        seconds = int(execution_time % 60)
+
         logging.info("All stock valuations have been saved to results.txt")
+        logging.info(f"Total execution time: {minutes} minutes and {seconds} seconds")
     except Exception as e:
         logging.error(f"Fatal error in main execution: {e}")
         raise
