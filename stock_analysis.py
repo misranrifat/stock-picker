@@ -164,7 +164,7 @@ class StockAnalyzer:
             # Calculate EMA
             df["EMA"] = df["Close/Last"].ewm(span=Config.EMA_SPAN, adjust=False).mean()
 
-            latest_close = df.iloc[-1]["Close/Last"]
+            latest_close = df.iloc[0]["Close/Last"]
             latest_ema = df.iloc[-1]["EMA"]
             valuation = "undervalued" if latest_close < latest_ema else "overvalued"
 
