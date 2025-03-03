@@ -4,14 +4,15 @@ pipeline {
         PYTHON_PATH = '/usr/bin/python3'
         VENV_DIR = 'virtual_env'
         VENV_BIN = "${VENV_DIR}/bin"
+        GIT_USERNAME = 'misranrifat'
+        GIT_EMAIL = '79622206+misranrifat@users.noreply.github.com'
     }
     stages {
         stage('Setup') {
             steps {
                 script {
                     sh "${PYTHON_PATH} -m venv ${VENV_DIR}"
-                    // Source doesn't work directly in Jenkins, need to use '.' instead
-                    // And need to combine commands since each 'sh' runs in a new shell
+
                     sh """
                         . ${VENV_BIN}/activate && \
                         ${VENV_BIN}/pip install -r requirements.txt && \
@@ -26,7 +27,7 @@ pipeline {
                 script {
                     sh """
                         git add -f results.txt
-                        git -c user.name='Jenkins' commit -m "Updating results.txt"
+                        git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m "Updating results.txt"
                         git push origin HEAD:main
                     """
                 }
@@ -35,6 +36,7 @@ pipeline {
     }
     post {
         always {
+            sh "deactivate || true"
             cleanWs()
         }
     }
