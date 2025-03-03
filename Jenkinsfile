@@ -4,13 +4,14 @@ pipeline {
         PYTHON_PATH = '/usr/bin/python3'
         VENV_DIR = 'virtual_env'
         VENV_BIN = "${VENV_DIR}/bin"
+        GIT_USERNAME = 'misranrifat'
+        GIT_EMAIL = '79622206+misranrifat@users.noreply.github.com'
     }
     stages {
         stage('Setup') {
             steps {
                 script {
                     sh "${PYTHON_PATH} -m venv ${VENV_DIR}"
-
                     sh """
                         . ${VENV_BIN}/activate && \
                         ${VENV_BIN}/pip install -r requirements.txt && \
@@ -22,19 +23,20 @@ pipeline {
         
         stage('Push to origin') {
             steps {
-                script {
-                    sh """
-                        git add -f results.txt
-                        git commit -m "Updating results.txt"
-                        git push origin HEAD:main
-                    """
+                withCredentials([usernamePassword(credentialsId: 'github-credentials', 
+                                                 passwordVariable: 'GH_TOKEN', 
+                                                 usernameVariable: 'GH_USERNAME')]) {
+                    script {
+                        sh "git add -f results.txt"
+                        sh "git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m 'Updating results.txt'"
+                        sh "git push https://github.com/misranrifat/repository-name.git HEAD:main"
+                    }
                 }
             }
         }
     }
     post {
         always {
-            sh "deactivate || true"
             cleanWs()
         }
     }
