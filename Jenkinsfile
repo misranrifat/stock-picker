@@ -23,14 +23,10 @@ pipeline {
         
         stage('Push to origin') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'github-credentials', 
-                                                 passwordVariable: 'GH_TOKEN', 
-                                                 usernameVariable: 'GH_USERNAME')]) {
-                    script {
-                        sh "git add -f results.txt"
-                        sh "git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m 'Updating results.txt'"
-                        sh "git push https://github.com/misranrifat/repository-name.git HEAD:main"
-                    }
+                script {
+                    sh "git add -f results.txt"
+                    sh "git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m 'Updating results.txt'"
+                    sh "git push https://github.com/misranrifat/repository-name.git HEAD:main"
                 }
             }
         }
