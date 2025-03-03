@@ -26,7 +26,7 @@ pipeline {
                 script {
                     sh "git add -f results.txt"
                     sh "git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m 'Updating results.txt'"
-                    sh "git push https://github.com/misranrifat/repository-name.git HEAD:main"
+                    sh "git push origin HEAD:main"
                 }
             }
         }
