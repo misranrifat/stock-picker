@@ -4,8 +4,6 @@ pipeline {
         PYTHON_PATH = '/usr/bin/python3'
         VENV_DIR = 'virtual_env'
         VENV_BIN = "${VENV_DIR}/bin"
-        GIT_USERNAME = 'misranrifat'
-        GIT_EMAIL = '79622206+misranrifat@users.noreply.github.com'
     }
     stages {
         stage('Setup') {
@@ -27,7 +25,7 @@ pipeline {
                 script {
                     sh """
                         git add -f results.txt
-                        git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m "Updating results.txt"
+                        git commit -m "Updating results.txt"
                         git push origin HEAD:main
                     """
                 }
