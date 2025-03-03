@@ -23,10 +23,12 @@ pipeline {
         
         stage('Push to origin') {
             steps {
-                script {
-                    sh "git add -f results.txt"
-                    sh "git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m 'Updating results.txt'"
-                    sh "git push origin HEAD:main"
+                sshagent(['jenkins-ssh-key']) {
+                    script {
+                        sh "git add -f results.txt"
+                        sh "git -c user.name='${GIT_USERNAME}' -c user.email='${GIT_EMAIL}' commit -m 'Updating results.txt'"
+                        sh "git push origin HEAD:main"
+                    }
                 }
             }
         }
