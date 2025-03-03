@@ -6,14 +6,17 @@ pipeline {
         VENV_BIN = "${VENV_DIR}/bin"
     }
     stages {
-        
         stage('Setup') {
             steps {
                 script {
                     sh "${PYTHON_PATH} -m venv ${VENV_DIR}"
-                    sh "source ${VENV_BIN}/activate"
-                    sh "${VENV_BIN}/pip3 install -r requirements.txt"
-                    sh "${VENV_BIN}/python3 stock_analysis.py"
+                    // Source doesn't work directly in Jenkins, need to use '.' instead
+                    // And need to combine commands since each 'sh' runs in a new shell
+                    sh """
+                        . ${VENV_BIN}/activate && \
+                        ${VENV_BIN}/pip install -r requirements.txt && \
+                        ${VENV_BIN}/python stock_analysis.py
+                    """
                 }
             }
         }
@@ -21,12 +24,18 @@ pipeline {
         stage('Push to origin') {
             steps {
                 script {
-                    sh '''git add -f results.txt
-                          git commit -m "Updating results.txt"
-                          git push origin HEAD:main
-                       '''
+                    sh """
+                        git add -f results.txt
+                        git commit -m "Updating results.txt"
+                        git push origin HEAD:main
+                    """
                 }
             }
+        }
+    }
+    post {
+        always {
+            cleanWs()
         }
     }
 }
