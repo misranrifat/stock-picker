@@ -26,7 +26,7 @@ pipeline {
                 script {
                     sh """
                         git add -f results.txt
-                        git commit -m "Updating results.txt"
+                        git -c user.name='Jenkins' commit -m "Updating results.txt"
                         git push origin HEAD:main
                     """
                 }
