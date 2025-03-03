@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PYTHON_PATH = '/Library/Frameworks/Python.framework/Versions/3.12/bin/python3'
+        PYTHON_PATH = '/usr/bin/python3'
         VENV_DIR = 'virtual_env'
         VENV_BIN = "${VENV_DIR}/bin"
     }
@@ -11,12 +11,9 @@ pipeline {
             steps {
                 script {
                     sh "${PYTHON_PATH} -m venv ${VENV_DIR}"
-                    sh "source ${VENV_BIN}/activate && ${VENV_BIN}/python3.12 --version"
-                    sh "which ${VENV_BIN}/python3.12"
-                    sh "${VENV_BIN}/pip3 --version"
-                    sh "which ${VENV_BIN}/pip3"
+                    sh "source ${VENV_BIN}/activate"
                     sh "${VENV_BIN}/pip3 install -r requirements.txt"
-                    sh "${VENV_BIN}/python3.12 stock_analysis.py"
+                    sh "${VENV_BIN}/python3 stock_analysis.py"
                 }
             }
         }
