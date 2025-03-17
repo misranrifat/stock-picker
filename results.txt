@@ -1,10 +1,10 @@
-AAPL: The stock is currently overvalued. Close: 213.49, EMA: 172.63 (2025-03-15 03:01:11)
+TSLA: The stock is currently overvalued. Close: 249.98, EMA: 171.90 (2025-03-17 03:01:25)
 
-NVDA: The stock is currently undervalued. Close: 388.56, EMA: 420.56 (2025-03-15 03:01:12)
+MSFT: The stock is currently undervalued. Close: 388.56, EMA: 420.99 (2025-03-17 03:01:27)
 
-MSFT: The stock is currently overvalued. Close: 121.67, EMA: 89.60 (2025-03-15 03:01:13)
+AAPL: The stock is currently overvalued. Close: 213.49, EMA: 172.63 (2025-03-17 03:01:28)
 
-TSLA: The stock is currently overvalued. Close: 249.98, EMA: 171.11 (2025-03-15 03:01:13)
+NVDA: The stock is currently overvalued. Close: 121.67, EMA: 89.78 (2025-03-17 03:01:28)
 
-AMZN: The stock is currently overvalued. Close: 197.95, EMA: 179.22 (2025-03-15 03:02:01)
+AMZN: The stock is currently overvalued. Close: 197.95, EMA: 179.73 (2025-03-17 03:01:29)
 
