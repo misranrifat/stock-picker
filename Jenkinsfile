@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    triggers {
+        cron('0 0 1 * *')
+    }
     environment {
         PYTHON_PATH = '/Library/Frameworks/Python.framework/Versions/3.12/bin/python3'
         VENV_DIR = 'virtual_env'
@@ -18,7 +21,8 @@ pipeline {
         stage('Push to origin') {
             steps {
                 script {
-                    sh '''git add -f results.txt
+                    sh '''git config user.name "Jenkins"
+                          git add -f results.txt
                           git commit -m "Updating results.txt"
                           git push origin HEAD:main
                        '''
